@@ -1,0 +1,490 @@
+{
+  "name": "CIPP Standards v1.0 - Table view v2",
+  "style": "Table",
+  "Fields": [
+    {
+      "name": "ActivityBasedTimeout",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "ActivityBasedTimeout",
+          "value": "ActivityBasedTimeout",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "softwareOath",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "softwareOath",
+          "value": "softwareOath",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "MSAuthenticator",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "MSAuthenticator",
+          "value": "MSAuthenticator",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "AnonReport",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "AnonReport",
+          "value": "AnonReport",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "AuditLog",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "AuditLog",
+          "value": "AuditLog",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "AutoExpandingArchive",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "AutoExpandingArchive",
+          "value": "AutoExpandingArchive",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DelegateSentItems",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DelegateSentItems",
+          "value": "DelegateSentItems",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "DeletedUserRentention",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DeletedUserRentention",
+          "value": "DeletedUserRentention",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DisableBasicAuthSMTP",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableBasicAuthSMTP",
+          "value": "DisableBasicAuthSMTP",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DisableGuestDirectory",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableGuestDirectory",
+          "value": "DisableGuestDirectory",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DisableGuests",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableGuests",
+          "value": "DisableGuests",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "DisableM365GroupUsers",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableM365GroupUsers",
+          "value": "DisableM365GroupUsers",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "MacSync",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "MacSync",
+          "value": "MacSync",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DisableReshare",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableReshare",
+          "value": "DisableReshare",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DisableSecurityGroupUsers",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableSecurityGroupUsers",
+          "value": "DisableSecurityGroupUsers",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DisableSharedMailbox",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableSharedMailbox",
+          "value": "DisableSharedMailbox",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "DisableTenantCreation",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableTenantCreation",
+          "value": "DisableTenantCreation",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DisableUserSiteCreate",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableUserSiteCreate",
+          "value": "DisableUserSiteCreate",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DisableViva",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DisableViva",
+          "value": "DisableViva",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "EnableAppConsentAdminRequests",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "EnableAppConsentAdminRequests",
+          "value": "EnableAppConsentAdminRequests",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "EnableFIDO2",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "EnableFIDO2",
+          "value": "EnableFIDO2",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "EnableOnlineArchiving",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "EnableOnlineArchiving",
+          "value": "EnableOnlineArchiving",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "ExcludedfileExt",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "ExcludedfileExt",
+          "value": "ExcludedfileExt",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "intuneDeviceReg",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "intuneDeviceReg",
+          "value": "intuneDeviceReg",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "intuneDeviceRetirementDays",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "intuneDeviceRetirementDays",
+          "value": "intuneDeviceRetirementDays",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "intuneRequireMFA",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "intuneRequireMFA",
+          "value": "intuneRequireMFA",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "laps",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "laps",
+          "value": "laps",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "MailContacts",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "MailContacts",
+          "value": "MailContacts",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "NudgeMFA",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "NudgeMFA",
+          "value": "NudgeMFA",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "OauthConsent",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "OauthConsent",
+          "value": "OauthConsent",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "OauthConsentLowSec",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "OauthConsentLowSec",
+          "value": "OauthConsentLowSec",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "OutboundSpamAlert",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "OutboundSpamAlert",
+          "value": "OutboundSpamAlert",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "PasswordExpireDisabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "PasswordExpireDisabled",
+          "value": "PasswordExpireDisabled",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "companionAppAllowedState",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "companionAppAllowedState",
+          "value": "companionAppAllowedState",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "PWdisplayAppInformationRequiredState",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "PWdisplayAppInformationRequiredState",
+          "value": "PWdisplayAppInformationRequiredState",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "DKIM",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "DKIM",
+          "value": "DKIM",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "SecurityDefaults",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "SecurityDefaults",
+          "value": "SecurityDefaults",
+          "formatter": "warnBool"
+        }
+      ]
+    },
+    {
+      "name": "SendFromAlias",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "SendFromAlias",
+          "value": "SendFromAlias",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "SendReceiveLimit",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "SendReceiveLimit",
+          "value": "SendReceiveLimit",
+          "formatter": "table"
+        }
+      ]
+    },
+    {
+      "name": "sharingCapability",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "sharingCapability",
+          "value": "sharingCapability",
+          "formatter": "string"
+        }
+      ]
+    },
+    {
+      "name": "SpoofingWarnings",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "SpoofingWarnings",
+          "value": "SpoofingWarnings",
+          "formatter": "warnBool"
+        }
+      ]
+    },
+    {
+      "name": "TemporaryAccessPass",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "TemporaryAccessPass",
+          "value": "TemporaryAccessPass",
+          "formatter": "warnBool"
+        }
+      ]
+    },
+    {
+      "name": "unmanagedSync",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "unmanagedSync",
+          "value": "unmanagedSync",
+          "formatter": "warnBool"
+        }
+      ]
+    },
+    {
+      "name": "UserSubmissionPolicy",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "UserSubmissionPolicy",
+          "value": "UserSubmissionPolicy",
+          "formatter": "warnBool"
+        }
+      ]
+    }
+  ]
+}
