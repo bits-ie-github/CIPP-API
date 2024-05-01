@@ -1,0 +1,31 @@
+{
+  "name": "Test Standard",
+  "style": "Table",
+  "Fields": [
+    {
+      "name": "SharepointSettings",
+      "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "Sharing capability",
+          "value": "SharepointSettings.sharingCapability"
+        },
+        {
+          "name": "Mac Sync Enabled",
+          "value": "SharepointSettings.isMacSyncAppEnabled",
+          "formatter": "warnBool"
+        }
+      ],
+      "StoreAs": "JSON",
+      "API": "Graph",
+      "ExtractFields": [
+        "sharingCapability",
+        "isMacSyncAppEnabled"
+      ],
+      "parameters": {
+        "asApp": true
+      },
+      "URL": "https://graph.microsoft.com/beta/admin/sharepoint/settings"
+    }
+  ]
+}
