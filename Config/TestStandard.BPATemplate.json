@@ -11,16 +11,27 @@
           "value": "SharepointSettings.sharingCapability"
         },
         {
-          "name": "Mac Sync Enabled",
-          "value": "SharepointSettings.isMacSyncAppEnabled",
-          "formatter": "warnBool"
+          "name": "Resharing by external users",
+          "value": "isResharingByExternalUsersEnabled",
+          "formatter": "reverseBool"
+        },
+        {
+          "name": "Site creation by standards users enabled",
+          "value": "SharepointSettings.isSiteCreationEnabled",
+          "formatter": "reverseBool"
+        },
+        {
+          "name": "Deleted user data rention(days)",
+          "value": "SharepointSettings.deletedUserPersonalSiteRetentionPeriodInDays"
         }
       ],
       "StoreAs": "JSON",
       "API": "Graph",
       "ExtractFields": [
         "sharingCapability",
-        "isMacSyncAppEnabled"
+        "isResharingByExternalUsersEnabled",
+        "isSiteCreationEnabled",
+        "deletedUserPersonalSiteRetentionPeriodInDays"
       ],
       "parameters": {
         "asApp": true
