@@ -34,7 +34,7 @@
         "deletedUserPersonalSiteRetentionPeriodInDays"
       ],
       "parameters": {
-        "asApp": true
+        "asApp": false
       },
       "URL": "https://graph.microsoft.com/beta/admin/sharepoint/settings"
     },
