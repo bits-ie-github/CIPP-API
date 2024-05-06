@@ -3,58 +3,26 @@
   "style": "Table",
   "Fields": [
     {
-      "name": "SharepointSettings",
-      "UseExistingInfo": false,
+      "name": "AnonReport",
+      "UseExistingInfo": true,
       "FrontendFields": [
         {
-          "name": "Sharing capability",
-          "value": "SharepointSettings.sharingCapability"
-        },
-        {
-          "name": "Resharing by external users",
-          "value": "isResharingByExternalUsersEnabled",
-          "formatter": "reverseBool"
-        },
-        {
-          "name": "Site creation by standards users enabled",
-          "value": "SharepointSettings.isSiteCreationEnabled",
-          "formatter": "reverseBool"
-        },
-        {
-          "name": "Deleted user data rention(days)",
-          "value": "SharepointSettings.deletedUserPersonalSiteRetentionPeriodInDays"
-        }
-      ],
-      "StoreAs": "JSON",
-      "API": "Graph",
-      "ExtractFields": [
-        "sharingCapability",
-        "isResharingByExternalUsersEnabled",
-        "isSiteCreationEnabled",
-        "deletedUserPersonalSiteRetentionPeriodInDays"
-      ],
-      "parameters": {
-        "asApp": false
-      },
-      "URL": "https://graph.microsoft.com/beta/admin/sharepoint/settings"
-    },
-    {
-      "name": "PasswordNeverExpires",
-      "UseExistingInfo": false,
-      "FrontendFields": [
-        {
-          "name": "Password Never Expires",
-          "value": "PasswordNeverExpires",
+          "name": "AnonReport",
+          "value": "AnonReport",
           "formatter": "bool"
         }
-      ],
-      "where": "$_.passwordValidityPeriodInDays -eq 2147483647",
-      "StoreAs": "bool",
-      "API": "Graph",
-      "ExtractFields": [
-        "passwordValidityPeriodInDays"
-      ],
-      "URL": "https://graph.microsoft.com/beta/domains"
+      ]
+    },
+    {
+      "name": "AuditLog",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "AuditLog",
+          "value": "AuditLog",
+          "formatter": "bool"
+        }
+      ]
     }
   ]
 }
