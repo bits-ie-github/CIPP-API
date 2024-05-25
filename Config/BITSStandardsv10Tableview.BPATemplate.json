@@ -1,0 +1,39 @@
+{
+  "name": "BITS Standards v1.0 - Table view",
+  "style": "Table",
+  "Fields": [
+    {
+      "name": "AnonReport",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "AnonReport",
+          "value": "AnonReport",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "AuditLog",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "AuditLog",
+          "value": "AuditLog",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "AutoExpandingArchive",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "AutoExpandingArchive",
+          "value": "AutoExpandingArchive",
+          "formatter": "bool"
+        }
+      ]
+    }
+  ]
+}
