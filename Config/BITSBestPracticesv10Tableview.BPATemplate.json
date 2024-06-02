@@ -89,35 +89,6 @@
         "displayConcealedNames"
       ],
       "URL": "https://graph.microsoft.com/beta/admin/reportSettings"
-    },
-    {
-      "name": "CurrentSecureScore",
-      "UseExistingInfo": false,
-      "FrontendFields": [
-        {
-          "name": "Current Secure Score",
-          "value": "CurrentSecureScore.currentScore / CurrentSecureScore.maxScore * 100",
-          "formatter": "math"
-        },
-        {
-          "name": "Average Comparative Score (All Tenants)",
-          "value": "CurrentSecureScore.averageComparativeScores[0].averageScore / CurrentSecureScore.maxScore * 100",
-          "formatter": "math"
-        },
-        {
-          "name": "Average Comparative Score (Similiar Size Tenants)",
-          "value": "CurrentSecureScore.averageComparativeScores[1].averageScore / CurrentSecureScore.maxScore * 100",
-          "formatter": "math"
-        }
-      ],
-      "StoreAs": "JSON",
-      "API": "Graph",
-      "ExtractFields": [
-        "currentScore",
-        "maxScore",
-        "averageComparativeScores"
-      ],
-      "URL": "https://graph.microsoft.com/beta/security/secureScores?$top=1"
     }
   ]
 }
