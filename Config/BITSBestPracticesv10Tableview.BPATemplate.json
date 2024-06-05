@@ -89,6 +89,29 @@
         "displayConcealedNames"
       ],
       "URL": "https://graph.microsoft.com/beta/admin/reportSettings"
+    },
+    {
+      "name": "SharepointSettings",
+      "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "Site creation by standards users enabled",
+          "value": "SharepointSettings.isSiteCreationEnabled",
+          "formatter": "reverseBool"
+        },
+        {
+          "name": "Deleted user data rention(days)",
+          "value": "SharepointSettings.deletedUserPersonalSiteRetentionPeriodInDays",
+          "formatter": "string"
+        }
+      ],
+      "StoreAs": "JSON",
+      "API": "Graph",
+      "ExtractFields": [
+        "isSiteCreationEnabled",
+        "deletedUserPersonalSiteRetentionPeriodInDays"
+      ],
+      "URL": "https://graph.microsoft.com/beta/admin/sharepoint/settings"
     }
   ]
 }
