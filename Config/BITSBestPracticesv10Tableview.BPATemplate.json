@@ -112,6 +112,24 @@
         "deletedUserPersonalSiteRetentionPeriodInDays"
       ],
       "URL": "https://graph.microsoft.com/beta/admin/sharepoint/settings"
+    },
+    {
+      "name": "Disable Guest Directory Access",
+      "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "Disable Guest Directory Access",
+          "value": "guestUserRoleId",
+          "formatter": "bool"
+        }
+      ],
+      "where": "$_.guestUserRoleId -eq '2af84b1e-32c8-42b7-82bc-daa82404023b'",
+      "StoreAs": "bool",
+      "API": "Graph",
+      "ExtractFields": [
+        "guestUserRoleId"
+      ],
+      "URL": "https://graph.microsoft.com/beta/policies/authorizationPolicy/authorizationPolicy"
     }
   ]
 }
