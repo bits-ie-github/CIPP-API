@@ -11,6 +11,7 @@ if ($Request.Query.TenantFilter) {
 
 $BPATemplateTable = Get-CippTable -tablename 'templates'
 $Filter = "PartitionKey eq 'BPATemplate'"
+$Filter = "GUID eq 'BITS - Best Practices v1 - Table view'"
 $Templates = ((Get-CIPPAzDataTableEntity @BPATemplateTable -Filter $Filter).JSON | ConvertFrom-Json).Name
 
 $BPAReports = foreach ($Tenant in $TenantList) {
