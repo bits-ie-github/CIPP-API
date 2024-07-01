@@ -50,6 +50,7 @@ function Invoke-CIPPStandardDisableM365GroupUsers {
             $CurrentState = $false
         }
         Add-CIPPBPAField -FieldName 'DisableM365GroupUsers' -FieldValue $CurrentState -StoreAs bool -Tenant $tenant
+        Add-CIPPBITSBPAField -FieldName 'Disable365GroupCreation' -FieldValue $CurrentState -StoreAs bool -Tenant $tenant
     }
 
 }
