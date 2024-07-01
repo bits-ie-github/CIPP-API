@@ -42,7 +42,7 @@
         {
           "name": "DelegateSentItems",
           "value": "DelegateSentItems",
-          "formatter": "table"
+          "formatter": "string"
         }
       ]
     },
