@@ -4,7 +4,7 @@
   "Fields": [
     {
       "name": "AnonReport",
-      "UseExistingInfo": true,
+      "UseExistingInfo": false,
       "FrontendFields": [
         {
           "name": "AnonReport",
@@ -230,6 +230,93 @@
           "name": "sharingCapability",
           "value": "sharingCapability",
           "formatter": "string"
+        }
+      ]
+    },
+    {
+      "name": "ExternalMFATrusted",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "External MFA Trusted",
+          "value": "ExternalMFATrusted",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "TNEFDisabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "TNEF Disabled",
+          "value": "TNEFDisabled",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "FocusedInboxCorrectState",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "Focused Inbox Disabled",
+          "value": "FocusedInboxCorrectState",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "MailTipsEnabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "Mail Tips Enabled",
+          "value": "MailTipsEnabled",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "ExternalCalendarSharingDisabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "External Calendar Sharing Disabled",
+          "value": "ExternalCalendarSharingDisabled",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "AdditionalStorageProvidersEnabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "Additional Storage Providers Disabled",
+          "value": "AdditionalStorageProvidersEnabled",
+          "formatter": "reverseBool"
+        }
+      ]
+    },
+    {
+      "name": "TenantDefaultTimezone",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "Tenant Default Timezone",
+          "value": "TenantDefaultTimezone"
+        }
+      ]
+    },
+    {
+      "name": "SharePointLegacyAuthEnabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "SharePoint Legacy Auth Disabled",
+          "value": "SharePointLegacyAuthEnabled",
+          "formatter": "reverseBool"
         }
       ]
     }
