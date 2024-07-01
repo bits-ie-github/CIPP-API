@@ -9,7 +9,7 @@
         {
           "name": "AnonReport",
           "value": "AnonReport",
-          "formatter": "bool"
+          "formatter": "reverseBool"
         }
       ]
     },
@@ -108,7 +108,7 @@
         {
           "name": "DisableSecurityGroupUsers",
           "value": "DisableSecurityGroupUsers",
-          "formatter": "bool"
+          "formatter": "warnBool"
         }
       ]
     },
@@ -130,7 +130,7 @@
         {
           "name": "DisableTenantCreation",
           "value": "DisableTenantCreation",
-          "formatter": "bool"
+          "formatter": "reverseBool"
         }
       ]
     },
