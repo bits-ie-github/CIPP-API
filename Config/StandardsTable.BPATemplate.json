@@ -319,6 +319,39 @@
           "formatter": "reverseBool"
         }
       ]
+    },
+    {
+      "name": "MailboxAuditingEnabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "Mailbox Auditing Enabled",
+          "value": "MailboxAuditingEnabled",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "CustomerLockboxEnabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "Customer Lockbox Enabled",
+          "value": "CustomerLockboxEnabled",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "UserAppCreationDisabled",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "User App Creation Disabled",
+          "value": "UserAppCreationDisabled",
+          "formatter": "bool"
+        }
+      ]
     }
   ]
 }
