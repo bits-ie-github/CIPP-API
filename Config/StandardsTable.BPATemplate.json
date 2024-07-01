@@ -108,7 +108,7 @@
         {
           "name": "DisableSecurityGroupUsers",
           "value": "DisableSecurityGroupUsers",
-          "formatter": "warnBool"
+          "formatter": "reverseBool"
         }
       ]
     },
@@ -141,28 +141,6 @@
         {
           "name": "DisableUserSiteCreate",
           "value": "DisableUserSiteCreate",
-          "formatter": "bool"
-        }
-      ]
-    },
-    {
-      "name": "DisableViva",
-      "UseExistingInfo": true,
-      "FrontendFields": [
-        {
-          "name": "DisableViva",
-          "value": "DisableViva",
-          "formatter": "bool"
-        }
-      ]
-    },
-    {
-      "name": "EnableAppConsentAdminRequests",
-      "UseExistingInfo": true,
-      "FrontendFields": [
-        {
-          "name": "EnableAppConsentAdminRequests",
-          "value": "EnableAppConsentAdminRequests",
           "formatter": "bool"
         }
       ]
