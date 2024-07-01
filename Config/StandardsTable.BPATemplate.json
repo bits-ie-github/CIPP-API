@@ -3,17 +3,6 @@
   "style": "Table",
   "Fields": [
     {
-      "name": "MSAuthenticator",
-      "UseExistingInfo": true,
-      "FrontendFields": [
-        {
-          "name": "MSAuthenticator",
-          "value": "MSAuthenticator",
-          "formatter": "bool"
-        }
-      ]
-    },
-    {
       "name": "AnonReport",
       "UseExistingInfo": true,
       "FrontendFields": [
