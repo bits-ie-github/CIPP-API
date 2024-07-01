@@ -4,7 +4,7 @@
   "Fields": [
     {
       "name": "AnonReport",
-      "UseExistingInfo": false,
+      "UseExistingInfo": true,
       "FrontendFields": [
         {
           "name": "AnonReport",
@@ -42,7 +42,7 @@
         {
           "name": "DelegateSentItems",
           "value": "DelegateSentItems",
-          "formatter": "string"
+          "formatter": "table"
         }
       ]
     },
